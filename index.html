@@ -1,0 +1,516 @@
+<!--
+*
+*  INSPINIA - Responsive Admin Theme
+*  version 2.7
+*
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>RenewablePedia</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="weather-icons/css/weather-icons.css">
+
+    <!-- Toastr style -->
+    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <!-- Gritter -->
+    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element"> <span>
+                            <a href="index.html"><center><img alt="image" class="img-circle" src="img/profile_ret.jpg" style="width: 110px; height: 110px" /></center></a>
+                             </span>
+                        </div>
+                        <div class="logo-element">
+                            RN+
+                        </div>
+                    </li>
+                    <li class="active">
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Home</span>  </a>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-sun-o"></i> <span class="nav-label">Solar Energy</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="info_solar.html">Information</a></li>
+                            <li><a href="gov_scheme.html">Government Schemes</a></li>
+                            <li><a href="install_plants_solar.html">Installed Plants</a></li>
+                            <li><a href="how_install_solar.html">How to Install</a></li>
+                            <li><a href="info_solar_calculator.html">Calculator</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="wi wi-strong-wind"></i> <span class="nav-label">Wind Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                           <li class="active"><a href="info_wind.html">Information</a></li>
+                            <li><a href="info_wind_subsidies.html">Government Schemes</a></li>
+                            <li><a href="info_wind_installed.html">Installed Plants</a></li>
+                            <li><a href="info_wind_howtoinstall.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="wi wi-raindrop"></i> <span class="nav-label">Hydro Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_hydro.html">Information</a></li>
+                            <li><a href="info_hydro_raw_material.html">Raw Materials</a></li>
+                            <li><a href="info_hydro_gov_policy.html">Government Schemes</a></li>
+                            <li><a href="info_hydro_install.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-thermometer"></i> <span class="nav-label">Geothermal Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_geothermal.html">Information</a></li>
+                            <li><a href="working_geothermal.html">Working of Geothermal Power Plant</a></li>
+                            <li><a href="exploration_geothermal.html">Exploration of Geothermal Plant in India</a></li>
+                            <li><a href="install_geothermal.html">How to Install</a></li>
+                            <li><a href="facts_geothermal.html">Some Interesting Facts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="wi wi-tsunami"></i> <span class="nav-label">Tidal Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_tidal.html">Information</a></li>
+                            <li><a href="working_tidal.html">Conversion of Tidal Energy to Electricity</a></li>
+                            <li><a href="install_plants_tidal.html">Installed Plants</a></li>
+                            <li><a href="install_tidal.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-leaf"></i> <span class="nav-label">Bio Gas</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_biogas.html">Information</a></li>
+                            <li><a href="info_biogas_subsidies.html">Government Schemes</a></li>
+                            <li><a href="info_biogas_installed_plants.html">Installed Plants</a></li>
+                            <li><a href="info_biogas_howtoinstall.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="info_facts.html"><i class="fa fa-magic"></i> <span class="nav-label">Interesting Facts</span></a>
+                    </li>
+					<li>
+                        <a href="renewable_suppliers.html"><i class="fa fa-gears"></i> <span class="nav-label">Equipment Suppliers</span></a>
+                    </li>
+                    <li>
+                        <a href="about_us_ret.html"><i class="fa fa-university"></i> <span class="nav-label">About Us</span></a>
+                    </li>
+                    <li>
+                        <a href="contact_us.html"><i class="fa fa-users"></i> <span class="nav-label">Contact Us</span></a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+       
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+        </div>
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <span class="m-r-sm text-muted welcome-message"><h3>Welcome to RenewablePedia<h3></span>
+                </li>
+            </ul>
+
+        </nav>
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-sm-4">
+                <h2>HOME</h2>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-11" style="margin-left: 36px; margin-right: 36px">
+                <div class="wrapper wrapper-content animated fadeInRight">
+                    <div class="row wrapper border-bottom white-bg page-heading">
+                
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-content ">
+                            <div class="carousel slide" id="carousel2">
+                                <ol class="carousel-indicators">
+                                    <li data-slide-to="0" data-target="#carousel2"  class="active"></li>
+                                    <li data-slide-to="1" data-target="#carousel2"></li>
+                                    <li data-slide-to="2" data-target="#carousel2" class=""></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img alt="image"  class="img-responsive" src="img/ret/ret1.jpg">
+                                        <div class="carousel-caption">
+                                            <p>Renewable Energy Technology</p>
+                                        </div>
+                                    </div>
+                                    <div class="item ">
+                                        <img alt="image"  class="img-responsive" src="img/ret/ret3.jpg" >
+                                        <div class="carousel-caption">
+                                            <p>Renewable Energy Technology</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img alt="image"  class="img-responsive" src="img/ret/ret2.jpg">
+                                        <div class="carousel-caption">
+                                            <p>Renewable Energy Technology</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a data-slide="prev" href="#carousel2" class="left carousel-control">
+                                    <span class="icon-prev"></span>
+                                </a>
+                                <a data-slide="next" href="#carousel2" class="right carousel-control">
+                                    <span class="icon-next"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vote-item">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="vote-actions date col-md-2">
+                                    <a class="center">Apr</a>
+                                    <a class="center">11</a>
+                                </div>
+                                <a href="#" class="vote-title col-md-10">
+								Expression of Interest for "Development of 1000 MW Offshore Wind Farm in Gujarat" due at 05.00 P.M. on 25.05.2018 opening at 3.30 P.M. on 28.05.2018.
+
+                                </a>
+                            </div>
+                            <div class="col-md-2 ">
+                                <div class="btn btn-primary pull-right">
+                                    <a href="https://mnre.gov.in/sites/default/files/webform/notices/EOI_for_Development_of_1000_MW_Offshore_Wind_Farm_in_Gujarat.pdf
+"><i class="fa fa-download"> </a></i> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vote-item">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="vote-actions date col-md-2">
+                                    <a class="center">Apr</a>
+                                    <a class="center">10</a>
+                                </div>
+                                <a href="#" class="vote-title col-md-10">
+							GST treatment on Solar Power Generating Systems
+                                </a>
+                            </div>
+                            <div class="col-md-2 ">
+                                <div class="btn btn-primary pull-right">
+                                    <a href = "https://mnre.gov.in/sites/default/files/webform/notices/GST-SPGS.pdf"><i class="fa fa-download"> </i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vote-item">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="vote-actions date col-md-2">
+                                    <a class="center">Apr</a>
+                                    <a class="center">03</a>
+                                </div>
+                                <a href="#" class="vote-title col-md-10">
+                                    Clarification to Guidelines for Tariff Based Competitive Bidding Process for Procurement of Power from Grid Connected Solar PV Power Projects, notified on 03.08.2017, under clause 20 of these Guidelines.
+                                </a>
+                            </div>
+                            <div class="col-md-2 ">
+                                <div class="btn btn-primary pull-right">
+                                    <a href = "https://mnre.gov.in/sites/default/files/webform/notices/Clarification-Guidelines-for-TBCB-process-for-procurement-of-power-from-GCSPV-projects.pdf
+"><i class="fa fa-download"></a></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vote-item">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="vote-actions date col-md-2">
+                                    <a class="center">Mar</a>
+                                    <a class="center">28</a>
+                                </div>
+                                <a href="#" class="vote-title col-md-10">
+                                    Last date of receipt of Applications for filling up one post of Director (Solar) in Solar Energy Corporation of India (SECI) Ltd. -reg.
+
+                                </a>
+                            </div>
+                            <div class="col-md-2 ">
+                                <div class="btn btn-primary pull-right">
+                                    <a href = "https://mnre.gov.in/sites/default/files/webform/notices/Notice-for-last-date-Director-Solar-SECI.pdf"><i class="fa fa-download"> </i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vote-item">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="vote-actions date col-md-2">
+                                    <a class="center">Mar</a>
+                                    <a class="center">27</a>
+                                </div>
+                                <a href="#" class="vote-title col-md-10">
+								Revised schedule and enforcement date of Solar Photovoltaic Systems/Devices/Components Goods Order 2017
+                                </a>
+                            </div>
+                            <div class="col-md-2 ">
+                                <div class="btn btn-primary pull-right">
+                                    <a href = "https://mnre.gov.in/sites/default/files/webform/notices/Revised-Schedule-of-CRO_SPV-2017.pdf"><i class="fa fa-download"> </a></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vote-item">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="vote-actions date col-md-2">
+                                    <a class="center">Mar</a>
+                                    <a class="center">26</a>
+                                </div>
+                                <a href="#" class="vote-title col-md-10">
+Invitation for Expression of Interest for empanelment of training partners for imparting trainings to Youth on Pan-India basis under “Suryamitra Skill Development Programme” 2018-19 & 2019-20. (Last date by 16.04.2018)                                </a>
+                            </div>
+                            <div class="col-md-2 ">
+                                <div class="btn btn-primary pull-right">
+                                    <a href = "https://mnre.gov.in/sites/default/files/webform/notices/EoI-Suryamitra-Skill-Development-Programme-2018-19-and-2019-20.pdf"><i class="fa fa-download"></i></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vote-item">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="vote-actions date col-md-2">
+                                    <a class="center">Mar</a>
+                                    <a class="center">23</a>
+                                </div>
+                                <a href="#" class="vote-title col-md-10">
+                                    Affidavit format to be submitted by the wind turbine manufacturers along with bank guarantee towards LVRT compliance.
+
+                                </a>
+                            </div>
+                            <div class="col-md-2 ">
+                                <div class="btn btn-primary pull-right">
+                                    <a href = "https://mnre.gov.in/sites/default/files/webform/notices/affidavit-format.pdf"><i class="fa fa-download"> </i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vote-item">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="vote-actions date col-md-2">
+                                    <a class="center">Mar</a>
+                                    <a class="center">23</a>
+                                </div>
+                                <a href="#" class="vote-title col-md-10">
+							Postponement of 2nd Global Renewable Energy Investors' Meet & Expo (2nd RE-INVEST) which was scheduled from 19th to 21st April 2018.
+                                </a>
+                            </div>
+                            <div class="col-md-2 ">
+                                <div class="btn btn-primary pull-right">
+                                    <a href = "https://mnre.gov.in/sites/default/files/webform/notices/Postponement-2nd-RE-INVEST.pdf"><i class="fa fa-download"> </a></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vote-item">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="vote-actions date col-md-2">
+                                    <a class="center">Mar</a>
+                                    <a class="center">20</a>
+                                </div>
+                                <a href="#" class="vote-title col-md-10">
+								Registrations are open for 17th, 5-Day Skill Development Program On Solar PV system Design using “PVSYST & PVSOL” software with cost economic and Policies at NISE (from 23rd to 27th April 2018)                                </a>
+                            </div>
+                            <div class="col-md-2 ">
+                                <div class="btn btn-primary pull-right">
+                                    <a href = "https://mnre.gov.in/sites/default/files/webform/notices/17th-Design-Lab-Programe-at-NISE.pdf"<i class="fa fa-download"></a> </i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vote-item">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="vote-actions date col-md-2">
+                                    <a class="center">Mar</a>
+                                    <a class="center">15</a>
+                                </div>
+                                <a href="#" class="vote-title col-md-10">
+                                    Tender for Design, development Supply & Installation of Class A+A+A+ Sun Simulator with built in Temperature Control Unit with complete accessories at National Institute of Solar Energy, Gurugram , Haryana
+                                </a>
+                            </div>
+                            <div class="col-md-2 ">
+                                <div class="btn btn-primary pull-right">
+                                    <a href = "https://mnre.gov.in/sites/default/files/webform/notices/Tender-document-for-Sun-Simulator-with-built-in-chamber-at-NISE.pdf"><i class="fa fa-download"> </a></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Flot -->
+    <script src="js/plugins/flot/jquery.flot.js"></script>
+    <script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="js/plugins/flot/jquery.flot.spline.js"></script>
+    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="js/plugins/flot/jquery.flot.pie.js"></script>
+
+    <!-- Peity -->
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="js/demo/peity-demo.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- GITTER -->
+    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+
+    <!-- Sparkline -->
+    <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Sparkline demo data  -->
+    <script src="js/demo/sparkline-demo.js"></script>
+
+    <!-- ChartJS-->
+    <script src="js/plugins/chartJs/Chart.min.js"></script>
+
+    <!-- Toastr -->
+    <script src="js/plugins/toastr/toastr.min.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            
+
+
+            var data1 = [
+                [0,4],[1,8],[2,5],[3,10],[4,4],[5,16],[6,5],[7,11],[8,6],[9,11],[10,30],[11,10],[12,13],[13,4],[14,3],[15,3],[16,6]
+            ];
+            var data2 = [
+                [0,1],[1,0],[2,2],[3,0],[4,1],[5,3],[6,1],[7,5],[8,2],[9,3],[10,2],[11,1],[12,0],[13,2],[14,8],[15,0],[16,0]
+            ];
+            $("#flot-dashboard-chart").length && $.plot($("#flot-dashboard-chart"), [
+                data1, data2
+            ],
+                    {
+                        series: {
+                            lines: {
+                                show: false,
+                                fill: true
+                            },
+                            splines: {
+                                show: true,
+                                tension: 0.4,
+                                lineWidth: 1,
+                                fill: 0.4
+                            },
+                            points: {
+                                radius: 0,
+                                show: true
+                            },
+                            shadowSize: 2
+                        },
+                        grid: {
+                            hoverable: true,
+                            clickable: true,
+                            tickColor: "#d5d5d5",
+                            borderWidth: 1,
+                            color: '#d5d5d5'
+                        },
+                        colors: ["#1ab394", "#1C84C6"],
+                        xaxis:{
+                        },
+                        yaxis: {
+                            ticks: 4
+                        },
+                        tooltip: false
+                    }
+            );
+
+            var doughnutData = {
+                labels: ["App","Software","Laptop" ],
+                datasets: [{
+                    data: [300,50,100],
+                    backgroundColor: ["#a3e1d4","#dedede","#9CC3DA"]
+                }]
+            } ;
+
+
+            var doughnutOptions = {
+                responsive: false,
+                legend: {
+                    display: false
+                }
+            };
+
+
+            var ctx4 = document.getElementById("doughnutChart").getContext("2d");
+            new Chart(ctx4, {type: 'doughnut', data: doughnutData, options:doughnutOptions});
+
+            var doughnutData = {
+                labels: ["App","Software","Laptop" ],
+                datasets: [{
+                    data: [70,27,85],
+                    backgroundColor: ["#a3e1d4","#dedede","#9CC3DA"]
+                }]
+            } ;
+
+
+            var doughnutOptions = {
+                responsive: false,
+                legend: {
+                    display: false
+                }
+            };
+
+
+            var ctx4 = document.getElementById("doughnutChart2").getContext("2d");
+            new Chart(ctx4, {type: 'doughnut', data: doughnutData, options:doughnutOptions});
+
+        });
+    </script>
+</body>
+</html>

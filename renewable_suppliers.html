@@ -1,0 +1,546 @@
+<!--
+*
+*  INSPINIA - Responsive Admin Theme
+*  version 2.7
+*
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Equipment supplier </title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="weather-icons/css/weather-icons.css">
+
+    <!-- Toastr style -->
+    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <!-- Gritter -->
+    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element"> <span>
+ <a href="index.html"><center><img alt="image" class="img-circle" src="img/profile_ret.jpg" style="width: 110px; height: 110px" /></center></a>                             </span>
+                        </div>
+                        <div class="logo-element">
+                            RN+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Home</span>  </a>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-sun-o"></i> <span class="nav-label">Solar Energy</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="info_solar.html">Information</a></li>
+                            <li><a href="gov_scheme.html">Government Schemes</a></li>
+                            <li><a href="install_plants_solar.html">Installed Plants</a></li>
+                            <li><a href="how_install_solar.html">How to Install</a></li>
+                             <li><a href="info_solar_calculator.html">Calculator</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="wi wi-strong-wind"></i> <span class="nav-label">Wind Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                           <li class="active"><a href="info_wind.html">Information</a></li>
+                            <li><a href="info_wind_subsidies.html">Government Schemes</a></li>
+                            <li><a href="info_wind_installed.html">installed Plants</a></li>
+                            <li><a href="info_wind_howtoinstall.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="wi wi-raindrop"></i> <span class="nav-label">Hydro Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_geothermal.html">Information</a></li>
+                            <li><a href="info_hydro_raw_material.html">Raw Materials</a></li>
+                            <li><a href="info_hydro_gov_policy.html">Government Schemes</a></li>
+                            <li><a href="info_hydro_install.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-thermometer"></i> <span class="nav-label">Geothermal Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_geothermal.html">Information</a></li>
+                            <li><a href="working_geothermal.html">Working of Geothermal Power Plant</a></li>
+                            <li><a href="exploration_geothermal.html">Exploration of Geothermal Plant in India</a></li>
+                            <li><a href="install_geothermal.html">How to Install</a></li>
+                            <li><a href="facts_geothermal.html">Some Interesting Facts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="wi wi-tsunami"></i> <span class="nav-label">Tidal Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_tidal.html">Information</a></li>
+                            <li><a href="working_tidal.html">Conversion of Tidal Energy to Electricity</a></li>
+                            <li><a href="install_plants_tidal.html">Installed Plants</a></li>
+                            <li><a href="install_tidal.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-leaf"></i> <span class="nav-label">Bio Gas</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_biogas.html">Information</a></li>
+                            <li><a href="info_biogas_subsidies.html">Government Schemes</a></li>
+                            <li><a href="info_biogas_installed_plants.html">Installed Plants</a></li>
+                            <li><a href="info_biogas_howtoinstall.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="info_facts.html"><i class="fa fa-magic"></i> <span class="nav-label">Interesting Facts</span></a>
+                    </li>
+					<li class="active">
+                        <a href="renewable_supplier.html"><i class="fa fa-gears"></i> <span class="nav-label">Equipment Suppliers</span></a>
+                    </li>
+					
+                    <li>
+                        <a href="about_us_ret.html"><i class="fa fa-university"></i> <span class="nav-label">About Us</span></a>
+                    </li>
+					
+                    <li>
+                         <a href="contact_us.html"><i class="fa fa-users"></i> <span class="nav-label">Contact Us</span></a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+        </div>
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <span class="m-r-sm text-muted welcome-message"><h3>Welcome to RenewablePedia<h3></span>
+                </li>
+            </ul>
+
+        </nav>
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-sm-4">
+                <h2>List of suppliers</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="active">
+                        <strong>Equipment Suppliers</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        
+                       
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Ahmedabad</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        
+                   
+                        <p>
+<h4>Grace Renewable Energy - Solar Street Light,Solar Panels for Greenhouse</h4>
+</br>
+Address: 43,The Chambers, Nr. TGB, S G Highway, Ahmedabad, Gujarat 380054
+</br>
+Phone: 090994 62222
+</br>
+ <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+ahmedabad/@23.0435966,72.4446096,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x395e9b4de267b6d9:0x12774842a4f9ddf8!2m2!1d72.51465!2d23.043612">Map</a>
+</br>
+</br>
+</p>
+
+<p>
+<h4>Solar Power System Manufacturer, Supplier,Solar Module,Solar Power Plant Supplier,Solar Products</h4>
+</br>
+Address: Plot, No43 The Chambers,S.G.Highway, Ahmedabad, Gujarat 380054
+</br>
+Phone: 098250 13358
+</br>
+  <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+ahmedabad/@23.0435154,72.444811,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x395e9b1f529cce31:0x9fe33e96b92b7bc1!2m2!1d72.5148514!2d23.0435308">Map</a>
+
+</br>
+</br>
+</p>
+<p>
+<h4>Northgreen Energy Pvt. Ltd.</h4>
+</br>
+Address:C-1/9, Sagar Aptts., Nr. Shyamal Cross Rd, Satellite, Ahmedabad
+</br>
+Phone: 099135 31313
+</br>
+  <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+ahmedabad/@23.050904,72.4316849,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x395e9b5ec4c05c0f:0x37d5b6cb5ca03317!2m2!1d72.5017253!2d23.0509194">Map</a>
+</br>
+</br>
+</p>
+<p>
+<h4>Avee Energy</h4>
+</br>
+Address:27-A, 4th Floor, Ajanta Commercial Complex Above Oswal Restaurant, Nr. Income Tax Cross roads, Ashram Rd, Ahmedabad, Gujarat 380014
+</br>
+Phone: 098982 33244
+</br>
+ <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+ahmedabad/@23.0415794,72.4997178,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x395e845ff3eace4f:0x2eef025703e267ea!2m2!1d72.5697582!2d23.0415948">Map</a>
+</br>
+</br>
+</p>
+
+</div>
+
+
+  <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Mumbai</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        
+                   
+                        <p>
+<h4>Tata Power Renewable Energy Limited</h4>
+</br>
+Address: Corporate Centre A Block, 34, Sant Tukaram Road, Carnac Bunder, Mumbai, Maharashtra 400009
+</br>
+Phone:022 6717 1231
+</br>
+ <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+mumbai/data=!4m5!4m4!1m0!1m2!1m1!1s0x3be7ce25febaaaab:0x1f4cc721c08f3516?sa=X&ved=2ahUKEwjx4IbP68DaAhUL4o8KHUziDJoQ9RcwAHoECAAQCQ">Map</a>
+</br>
+</br>
+</p>
+
+<p>
+<h4>Radiant Flux Solar</h4>
+</br>
+Address:9, Raghunath Narsi compound, Near Patel Nagar,, Kandivali West, Mumbai, Maharashtra 400067
+</br>
+Phone:  098337 35727
+</br>
+  <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+mumbai/data=!4m5!4m4!1m0!1m2!1m1!1s0x3be7b6da71c65bf1:0xf510bca6500f14cb?sa=X&ved=2ahUKEwiS38nz68DaAhVDvI8KHfkFAG0Q9RcwAHoECAAQCQ">Map</a>
+
+</br>
+</br>
+</p>
+<p>
+<h4>Epic Energy Limited</h4>
+</br>
+Address:119, Patil Estate, Opposite Hotel Mallika, Near Rabale Station W, New Mumbai, New Mumbai, Mumbai, Maharashtra 400701
+</br>
+Phone: 022 6518 7364
+</br>
+  <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+mumbai/data=!4m5!4m4!1m0!1m2!1m1!1s0x3be7c3c8639c13bf:0x470e9b335ecee52?sa=X&ved=2ahUKEwiQt7GV7MDaAhXLo48KHetfARoQ9RcwAHoECAAQCQ">Map</a>
+</br>
+</br>
+</p>
+<p>
+<h4>Longman Suntech Energy</h4>
+</br>
+Address:Floor 3, Duru House 400703, Juhu Tara Rd, Juhu, Mumbai, Maharashtra
+</br>
+Phone: 022 6110 0579
+</br>
+ <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+mumbai/data=!4m5!4m4!1m0!1m2!1m1!1s0x3be7c14cfa39a41f:0xc40aaefa297f1626?sa=X&ved=2ahUKEwiY3La87MDaAhUOR48KHcM0ARcQ9RcwAHoECAAQCQ">Map</a>
+</br>
+</br>
+</p>
+
+</div>
+
+  <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Chennai</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        
+                   
+                        <p>
+<h4>Aspiration Energy</h4>
+</br>
+Address: No 7, 2nd Trust Link Road, Mandaveli, Chennai, Tamil Nadu 600028
+</br>
+Phone: 044 4218 5301
+</br>
+ <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+chennai/data=!4m5!4m4!1m0!1m2!1m1!1s0x3a52f29b79bd09cb:0x80637147b8c8cb9d?sa=X&ved=2ahUKEwjTutmP7cDaAhVLsI8KHa6eCFEQ9RcwAHoECAAQCQ">Map</a>
+</br>
+</br>
+</p>
+
+<p>
+<h4>S. J. Renewable Energy</h4>
+</br>
+Address:New No. 18/1, Old No. 26F, Kaveri Street, F3, Cherish Castle, Saligramam, Chennai, Tamil Nadu 600093
+</br>
+Phone: 090031 87031
+</br>
+  <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+chennai/data=!4m5!4m4!1m0!1m2!1m1!1s0x3a5266c7c6036875:0xeabeed4ae19f942f?sa=X&ved=2ahUKEwjgnfCx7cDaAhWGtY8KHUT9Aw4Q9RcwAHoECAAQCQ">Map</a>
+
+</br>
+</br>
+</p>
+<p>
+<h4>VRM Energy Consultancy Services Pvt. Ltd.</h4>
+</br>
+Address:Rangarajapuram Main Road, No. 1, Rathinammal St, Kodambakkam, Chennai, Tamil Nadu 600024
+</br>
+Phone: 089399 80135
+</br>
+  <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+chennai/data=!4m5!4m4!1m0!1m2!1m1!1s0x3a5266f0215db9e9:0xd2e6a75f34a481cd?sa=X&ved=2ahUKEwjAn5_z7sDaAhWH6Y8KHWE-Aq0Q9RcwAHoECAAQCQ">Map</a>
+</br>
+</br>
+</p>
+<p>
+<h4>SWELECT Energy Systems Limited</h4>
+</br>
+Address: "NUMERIC House" No.5, P.S.Sivasamy Salai, Mylapore, Chennai, Tamil Nadu 600049
+</br>
+Phone: 044 2499 3266
+</br>
+ <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+chennai/data=!4m5!4m4!1m0!1m2!1m1!1s0x3a52662e45bc4487:0x685d8501bb3725e2?sa=X&ved=2ahUKEwjx0dat78DaAhUJSo8KHfzSCrUQ9RcwAHoECAAQCQ">Map</a>
+</br>
+</br>
+</p>
+
+</div>
+			
+  <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Kolkata</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        
+                   
+                        <p>
+<h4>Rabikiran Renewable Energy System</h4>
+</br>
+Address:  P-205, Parnasree Pally, Kolkata, West Bengal 700060
+</br>
+Phone: 033 2492 5843
+</br>
+ <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+kolkata/data=!4m5!4m4!1m0!1m2!1m1!1s0x3a027a23c5555555:0x49c17371732de78c?sa=X&ved=2ahUKEwj4kqXJ8MDaAhVFM48KHcQDC4gQ9RcwAHoECAAQCQ">Map</a>
+</br>
+</br>
+</p>
+
+<p>
+<h4>ONergy Solar</h4>
+</br>
+Address: Jaju Bhawan, 1A, DL, Ajmal Khan Rd, Kolkata, West Bengal 700027
+</br>
+Phone: 093394 81004
+</br>
+  <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+kolkata/data=!4m5!4m4!1m0!1m2!1m1!1s0x3a0277422b3f05df:0x2bbe78c4832c700b?sa=X&ved=2ahUKEwix7eT58MDaAhWFro8KHRoeCsYQ9RcwAHoECAAQCQ">Map</a>
+
+</br>
+</br>
+</p>
+<p>
+<h4>Nandi Resources Generation Technology Pvt Ltd</h4>
+</br>
+Address: B/6, Bapujinagar, Kolkata, West Bengal 700092
+</br>
+Phone:  084200 46477
+</br>
+  <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+kolkata/data=!4m5!4m4!1m0!1m2!1m1!1s0x3a027119dc00008d:0x9d19bb1b429447e5?sa=X&ved=2ahUKEwjb0-ue8cDaAhWHo48KHXqJBTUQ9RcwAHoECAAQCQ">Map</a>
+</br>
+</br>
+</p>
+<p>
+<h4>Natural Systems</h4>
+</br>
+Address: 99, AK Mukherjee Rd, Palpara, Kolkata, West Bengal 700090
+Phone: 098317 49727
+</br>
+ <a href="https://www.google.co.in/maps/dir/''/list+of+renewable+energy+companies+in+kolkata/data=!4m5!4m4!1m0!1m2!1m1!1s0x3a0276d39f503663:0x75c35dbc30478599?sa=X&ved=2ahUKEwjYm_eA8sDaAhXLq48KHUmjDfAQ9RcwAHoECAAQCQ">Map</a>
+</br>
+</br>
+</p>
+
+</div>			
+               <!-- Mainly scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Flot -->
+    <script src="js/plugins/flot/jquery.flot.js"></script>
+    <script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="js/plugins/flot/jquery.flot.spline.js"></script>
+    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="js/plugins/flot/jquery.flot.pie.js"></script>
+
+    <!-- Peity -->
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="js/demo/peity-demo.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- GITTER -->
+    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+
+    <!-- Sparkline -->
+    <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Sparkline demo data  -->
+    <script src="js/demo/sparkline-demo.js"></script>
+
+    <!-- ChartJS-->
+    <script src="js/plugins/chartJs/Chart.min.js"></script>
+
+    <!-- Toastr -->
+    <script src="js/plugins/toastr/toastr.min.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            
+
+
+            var data1 = [
+                [0,4],[1,8],[2,5],[3,10],[4,4],[5,16],[6,5],[7,11],[8,6],[9,11],[10,30],[11,10],[12,13],[13,4],[14,3],[15,3],[16,6]
+            ];
+            var data2 = [
+                [0,1],[1,0],[2,2],[3,0],[4,1],[5,3],[6,1],[7,5],[8,2],[9,3],[10,2],[11,1],[12,0],[13,2],[14,8],[15,0],[16,0]
+            ];
+            $("#flot-dashboard-chart").length && $.plot($("#flot-dashboard-chart"), [
+                data1, data2
+            ],
+                    {
+                        series: {
+                            lines: {
+                                show: false,
+                                fill: true
+                            },
+                            splines: {
+                                show: true,
+                                tension: 0.4,
+                                lineWidth: 1,
+                                fill: 0.4
+                            },
+                            points: {
+                                radius: 0,
+                                show: true
+                            },
+                            shadowSize: 2
+                        },
+                        grid: {
+                            hoverable: true,
+                            clickable: true,
+                            tickColor: "#d5d5d5",
+                            borderWidth: 1,
+                            color: '#d5d5d5'
+                        },
+                        colors: ["#1ab394", "#1C84C6"],
+                        xaxis:{
+                        },
+                        yaxis: {
+                            ticks: 4
+                        },
+                        tooltip: false
+                    }
+            );
+
+            var doughnutData = {
+                labels: ["App","Software","Laptop" ],
+                datasets: [{
+                    data: [300,50,100],
+                    backgroundColor: ["#a3e1d4","#dedede","#9CC3DA"]
+                }]
+            } ;
+
+
+            var doughnutOptions = {
+                responsive: false,
+                legend: {
+                    display: false
+                }
+            };
+
+
+            var ctx4 = document.getElementById("doughnutChart").getContext("2d");
+            new Chart(ctx4, {type: 'doughnut', data: doughnutData, options:doughnutOptions});
+
+            var doughnutData = {
+                labels: ["App","Software","Laptop" ],
+                datasets: [{
+                    data: [70,27,85],
+                    backgroundColor: ["#a3e1d4","#dedede","#9CC3DA"]
+                }]
+            } ;
+
+
+            var doughnutOptions = {
+                responsive: false,
+                legend: {
+                    display: false
+                }
+            };
+
+
+            var ctx4 = document.getElementById("doughnutChart2").getContext("2d");
+            new Chart(ctx4, {type: 'doughnut', data: doughnutData, options:doughnutOptions});
+
+        });
+    </script>
+   
+</body>
+</html>

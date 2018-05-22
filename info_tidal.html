@@ -1,0 +1,876 @@
+<!--
+*
+*  INSPINIA - Responsive Admin Theme
+*  version 2.7
+*
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Tidal Energy</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="weather-icons/css/weather-icons.css">
+
+    <!-- Toastr style -->
+    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <!-- Gritter -->
+    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element"> <span>
+ <a href="index.html"><center><img alt="image" class="img-circle" src="img/profile_ret.jpg" style="width: 110px; height: 110px" /></center></a>                             </span>
+                        </div>
+                        <div class="logo-element">
+                            RN+
+                        </div>
+                    </li>
+                    <li class="">
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Home</span>  </a>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-sun-o"></i> <span class="nav-label">Solar Energy</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="info_solar.html">Information</a></li>
+                            <li><a href="gov_scheme.html">Government Schemes</a></li>
+                            <li><a href="install_plants_solar.html">Installed Plants</a></li>
+                            <li><a href="how_install_solar.html">How to Install</a></li>
+                            <li><a href="info_solar_calculator.html">Calculator</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="wi wi-strong-wind"></i> <span class="nav-label">Wind Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                           <li class="active"><a href="info_wind.html">Information</a></li>
+                            <li><a href="info_wind_subsidies.html">Government Schemes</a></li>
+                            <li><a href="info_wind_installed.html">Installed Plants</a></li>
+                            <li><a href="info_wind_howtoinstall.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="wi wi-raindrop"></i> <span class="nav-label">Hydro Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_hydro.html">Information</a></li>
+                            <li><a href="info_hydro_raw_material.html">Raw Materials</a></li>
+                            <li><a href="info_hydro_gov_policy.html">Government Schemes</a></li>
+                            <li><a href="info_hydro_install.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-thermometer"></i> <span class="nav-label">Geothermal Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_geothermal.html">Information</a></li>
+                            <li><a href="working_geothermal.html">Working of Geothermal Power Plant</a></li>
+                            <li><a href="exploration_geothermal.html">Exploration of Geothermal Plant in India</a></li>
+                            <li><a href="install_geothermal.html">How to Install</a></li>
+                            <li><a href="facts_geothermal.html">Some Interesting Facts</a></li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="#"><i class="wi wi-tsunami"></i> <span class="nav-label">Tidal Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_tidal.html">Information</a></li>
+                            <li><a href="working_tidal.html">Conversion of Tidal Energy to Electricity</a></li>
+                            <li><a href="install_plants_tidal.html">Installed Plants</a></li>
+                            <li><a href="install_tidal.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-leaf"></i> <span class="nav-label">Bio Gas</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_biogas.html">Information</a></li>
+                            <li><a href="info_biogas_subsidies.html">Government Schemes</a></li>
+                            <li><a href="info_biogas_installed_plants.html">Installed Plants</a></li>
+                            <li><a href="info_biogas_howtoinstall.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="info_facts.html"><i class="fa fa-magic"></i> <span class="nav-label">Interesting Facts</span></a>
+                    </li>
+					<li>
+                        <a href="renewable_suppliers.html"><i class="fa fa-gears"></i> <span class="nav-label">Equipment Suppliers</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-university"></i> <span class="nav-label">About Us</span></a>
+                    </li>
+                    <li>
+                         <a href="contact_us.html"><i class="fa fa-users"></i> <span class="nav-label">Contact Us</span></a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+        </div>
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <span class="m-r-sm text-muted welcome-message"><h3>Welcome to RenewablePedia<h3></span>
+                </li>
+            </ul>
+
+        </nav>
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-sm-4">
+                <h2>Tidal Energy</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="index.html">Tidal Energy</a>
+                    </li>
+                    <li class="active">
+                        <strong>Information</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-11" style="margin-left: 50px; margin-top: 25px">
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Introduction</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                            <p>The tidal cycle occurs every 12 hours due to the gravitational force of the moon. The
+difference in water height from low tide and high tide is potential energy. Similar to traditional
+hydropower generated from dams, tidal water can be captured in a barrage across an
+estuary during high tide and forced through a hydro-turbine during low tide. To capture
+sufficient power from the tidal energy potential, the height of high tide must be at least five
+meters (16 feet) greater than low tide. There are only approximately 20 locations on earth
+with tides this high and India is one of them. The Gulf of Cambay and the Gulf of Kutch in
+Gujarat on the west coast have the maximum tidal range of 11m and 8m with average tidal
+Gujarat on the west coast have the maximum tidal range of 11m and 8m with average tidal
+range of 6.77m and 5.23m respectively.</p>
+					
+							<br></br>
+					
+							<h3>Introduction to Tidal Energy</h3>
+							<center><iframe width="560" height="315" src="https://www.youtube.com/embed/m7ImT4CdcPo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+					</div>
+                </div>
+				
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>History</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <p><ul><li>Total identified potential of Tidal Energy is about 9000 MW in West Coast Gulf of
+								Cambay (7000 MW), Gulf of Kutch (1200 MW) and in East Coast the Ganges Delta
+								in the Sunderbans in West Bengal for small scale tidal power development estimates
+								the potential in this region to be about 100 MW.</li>
+								<li>The total available potential of wave energy in India along the 6000 Km of India’s
+								coast is estimated to be about 40,000 MW – these are preliminary estimates. This
+								energy is however less intensive than what is available in more northern and
+								southern latitudes.</li>
+								<li>In 2000 NIOT Goa, launched a programme to conduct study on technologies for
+								producing high quality clean drinking water and energy from the ocean. The objective
+								was to generate 2 - 3 lakh litres per day freshwater using the Low Temperature
+								Thermal Desalination technology by 1 MW OTEC Power Plant. But it was dropped
+								due to difficulties in installations.</li>
+								<li>In 2010 Kalpasar Tidal Power Project at The Gulf of Khambhat was identified as a
+								promising site for tidal power generation by UNDP Expert.</li>
+								<li>In Jan 2011, the state of Gujarat announced plans to install Asia’s first commercial-
+								scale tidal current power plant; the state government approved the construction of a
+								50 MW project in the Gulf of Kutch.</li>
+								<li>None at the moment, but India’s Ministry of New and Renewable Energy said in Feb
+								2011 that it may provide financial incentives for as much as 50 percent of the cost for
+								projects seeking to demonstrate tidal power.</li>
+								<li>In 2014 Atlantis Energy proposed to install and develop 50-200 MW Tidal stream
+								based power plant at Gulf of Chambey.</li>
+						</ul></p>
+						
+						<center><img alt="image" class="img-rectangle" src="img/ret/oldest_tidal.jpg" style="width: 280px; height: 220px" /></center>
+						<center><h5>The 240MW La Rance tidal power plant on the estuary of the Rance River in Brittany, France, <br>has been operational since 1966 making it the world's oldest and second biggest tidal power station.</h></center>
+						
+						
+					</div>
+                </div>
+				
+				
+				<div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Ways to convert tidal energy to electrical energy</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <p>Tidal energy is converted into electricity using three main tidal technologies:</p>		
+						
+						
+						
+						<p><ol><li><b>Tidal Turbines</b></li><br><p>Tidal turbines utilize the same technology to wind turbines. The only difference is
+							that the blades of tidal turbines are way stronger and shorter. So, the best way to
+							compare tidal turbines is underwater windmills. Ideally, the water currents turn the
+							turbine. The turbine is connected to a generator through a shaft. So, when the
+							turbine turns, the shaft also turns. The turning shaft activates a generator, which
+							generates electricity. The initial cost of setting up this tidal stream system is quite on
+							the higher side, not to mention the difficulty in maintenance. However, it remains a
+							cheaper alternative and doesn’t cause environmental degradation compare to other
+							tidal technologies.</p>
+							<li><b>Tidal Barrages</b></li><br><p>Tidal Barrages are the most efficient tidal energy technologies. They resemble dams
+							used in hydro-power plants. The difference is they are a lot bigger since they are
+							constructed across a Bay or an Estuary. For the barrage to be able to produce
+							power, the tidal range, which is the difference between low and high tide, has to be
+							more than 5 meters. As the tide enters the system, ocean or sea water flows via the
+							dam into the basin. When the tides subside, the system’s gates close, trapping the
+							water in the estuary or basin. When the tides start to move out, the gates in the dam
+							that consist of turbines, open up, and water begins to flow out hitting the turbines,
+							which eventually turn to produce energy. Construction of tidal barrages involves high
+							upfront capital costs, plus they have devastating effects on the local environment.</p>
+							<li><b>Tidal lagoons</b></li><br><p>This technology has a lot in common with tidal barrages. It’s just that it doesn’t
+							involve a lot of initial capital outlay and it’s friendly to the environment. Tidal lagoon is
+							a power station separated from the rest of the ocean or sea. Its functionality is similar
+							to tidal barrage since when the tide goes up, the lagoon completely fills up. When the
+							tide subsides, the water is allowed to drain out through an opening consisting of
+							turbines. The outward flow of water turns the turbine, which generates energy.</p></ol></p>
+				</div>
+                </div>
+				
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Advantages</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+						<ul>
+							<li><b>Environmentally friendly: </b>The fact that tidal energy technologies are installed on the coastlines and offshore
+							makes them good for the environment since land will not be interfered with. Also,
+							tidal energy is a clean source of energy, meaning it doesn’t release any greenhouses
+							gasses to the atmosphere.</li>
+														<li><b>A renewable resource: </b>Tides harnessed to produce tidal energy result from the combined gravitational pull
+							of the sun, moon, and earth in conjunction with the rotation of the planet around its
+							axis. This is a natural process that occurs every single day. This means that tides will
+							continue to occur and production of tidal energy will continue until the end of time.</li>
+														<li><b>Highly predictable: </b>Development of tides is a well-understood cycle. This makes it a lot easier to
+							develop tidal energy systems with the right dimensions. Why?  Because the level of
+							power the system will be exposed to is already determined. Which explains why the
+							capacity of the installed equipment and the entire physical size has completely no
+							energy generation limitations, even though stream generators and tidal turbines used
+							resemble those of wind turbines. </li>
+														<li><b>Cost-competitive: </b>Tidal energy technologies once constructed have the potential to generate electricity
+							for many years, which means they are long lasting. Although the upfront costs of
+
+							setting up a tidal power plant are relatively high, the return on investment will be
+							realized in the long run. A typical example is the La Rance tidal barrage, which is still
+							producing electricity since 1966. </li>
+														<li><b>Minimizes over-dependence on fossil fuels: </b>TFossil-based sources of energy such as oil, coal and natural gas emit greenhouse
+							gasses that lead to climate change and global warming. Tidal energy offers a green
+							and renewable alternative to cut back on greenhouse gas emissions.</li>
+							</ul>
+                    </div>
+                </div>
+				
+               <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Disadvantages</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+						<ul>
+							<li><b>Cost: </b>Cost of construction of tidal power plant is high.</li>
+							<li><b>Location availability: </b>There are very few ideal locations for construction of plant and they too are localized to coastal regions only.</li>
+							<li><b>Intensity of sea waves: </b>Intensity of sea waves is unpredictable and there can be damage to power generation units.</li>
+							<li><b>Aquatic life: </b>Influences aquatic life adversely and can disrupt migration of fish.</li>
+							<li><b>Electricity generation duration: </b>The actual generation is for a short period of time. The tides only happen twice a day so electricity can be produced only for that time.</li>
+							<li><b>Obstructions: </b>Frozen sea, low or weak tides, straight shorelines, low tidal rise or fall are some of the obstructions.</li>
+							<li><b>Distance of availability: </b>Usually the places where tidal energy is produced are far away from the places where it is consumed. This transmission is expensive and difficult.
+</li>
+						</ul>
+                    </div>
+                </div>
+				
+                
+				<div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Closure</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+					<p>Tidal Energy is thus a clean source of energy and doesn’t require much land or other resources as in harnessing energy from other sources. However, the energy generated is not much as high and low tides occur only twice a day and continuous energy production is not possible.</p>
+                    </div>
+                </div>
+        </div>
+                <div id="right-sidebar" class="animated">
+            <div class="sidebar-container">
+
+                <ul class="nav nav-tabs navs-3">
+
+                    <li class="active"><a data-toggle="tab" href="#tab-1">
+                        Notes
+                    </a></li>
+                    <li><a data-toggle="tab" href="#tab-2">
+                        Projects
+                    </a></li>
+                    <li class=""><a data-toggle="tab" href="#tab-3">
+                        <i class="fa fa-gear"></i>
+                    </a></li>
+                </ul>
+
+                <div class="tab-content">
+
+
+                    <div id="tab-1" class="tab-pane active">
+
+                        <div class="sidebar-title">
+                            <h3> <i class="fa fa-comments-o"></i> Latest Notes</h3>
+                            <small><i class="fa fa-tim"></i> You have 10 new message.</small>
+                        </div>
+
+                        <div>
+
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a1.jpg">
+
+                                        <div class="m-t-xs">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+
+                                        There are many variations of passages of Lorem Ipsum available.
+                                        <br>
+                                        <small class="text-muted">Today 4:21 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a2.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                        <br>
+                                        <small class="text-muted">Yesterday 2:45 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a3.jpg">
+
+                                        <div class="m-t-xs">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        Mevolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                        <br>
+                                        <small class="text-muted">Yesterday 1:10 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a4.jpg">
+                                    </div>
+
+                                    <div class="media-body">
+                                        Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+                                        <br>
+                                        <small class="text-muted">Monday 8:37 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a8.jpg">
+                                    </div>
+                                    <div class="media-body">
+
+                                        All the Lorem Ipsum generators on the Internet tend to repeat.
+                                        <br>
+                                        <small class="text-muted">Today 4:21 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a7.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                        <br>
+                                        <small class="text-muted">Yesterday 2:45 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a3.jpg">
+
+                                        <div class="m-t-xs">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below.
+                                        <br>
+                                        <small class="text-muted">Yesterday 1:10 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a4.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        Uncover many web sites still in their infancy. Various versions have.
+                                        <br>
+                                        <small class="text-muted">Monday 8:37 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="tab-2" class="tab-pane">
+
+                        <div class="sidebar-title">
+                            <h3> <i class="fa fa-cube"></i> Latest projects</h3>
+                            <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
+                        </div>
+
+                        <ul class="sidebar-list">
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Business valuation</h4>
+                                    It is a long established fact that a reader will be distracted.
+
+                                    <div class="small">Completion with: 22%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 22%;" class="progress-bar progress-bar-warning"></div>
+                                    </div>
+                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Contract with Company </h4>
+                                    Many desktop publishing packages and web page editors.
+
+                                    <div class="small">Completion with: 48%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 48%;" class="progress-bar"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Meeting</h4>
+                                    By the readable content of a page when looking at its layout.
+
+                                    <div class="small">Completion with: 14%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 14%;" class="progress-bar progress-bar-info"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="label label-primary pull-right">NEW</span>
+                                    <h4>The generated</h4>
+                                    There are many variations of passages of Lorem Ipsum available.
+                                    <div class="small">Completion with: 22%</div>
+                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Business valuation</h4>
+                                    It is a long established fact that a reader will be distracted.
+
+                                    <div class="small">Completion with: 22%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 22%;" class="progress-bar progress-bar-warning"></div>
+                                    </div>
+                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Contract with Company </h4>
+                                    Many desktop publishing packages and web page editors.
+
+                                    <div class="small">Completion with: 48%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 48%;" class="progress-bar"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Meeting</h4>
+                                    By the readable content of a page when looking at its layout.
+
+                                    <div class="small">Completion with: 14%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 14%;" class="progress-bar progress-bar-info"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="label label-primary pull-right">NEW</span>
+                                    <h4>The generated</h4>
+                                    <!--<div class="small pull-right m-t-xs">9 hours ago</div>-->
+                                    There are many variations of passages of Lorem Ipsum available.
+                                    <div class="small">Completion with: 22%</div>
+                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div id="tab-3" class="tab-pane">
+
+                        <div class="sidebar-title">
+                            <h3><i class="fa fa-gears"></i> Settings</h3>
+                            <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
+                        </div>
+
+                        <div class="setings-item">
+                    <span>
+                        Show notifications
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example">
+                                    <label class="onoffswitch-label" for="example">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Disable Chat
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" checked class="onoffswitch-checkbox" id="example2">
+                                    <label class="onoffswitch-label" for="example2">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Enable history
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example3">
+                                    <label class="onoffswitch-label" for="example3">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Show charts
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example4">
+                                    <label class="onoffswitch-label" for="example4">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Offline users
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" checked name="collapsemenu" class="onoffswitch-checkbox" id="example5">
+                                    <label class="onoffswitch-label" for="example5">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Global search
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" checked name="collapsemenu" class="onoffswitch-checkbox" id="example6">
+                                    <label class="onoffswitch-label" for="example6">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Update everyday
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example7">
+                                    <label class="onoffswitch-label" for="example7">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-content">
+                            <h4>Settings</h4>
+                            <div class="small">
+                                I belive that. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                And typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                Over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Flot -->
+    <script src="js/plugins/flot/jquery.flot.js"></script>
+    <script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="js/plugins/flot/jquery.flot.spline.js"></script>
+    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="js/plugins/flot/jquery.flot.pie.js"></script>
+
+    <!-- Peity -->
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="js/demo/peity-demo.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- GITTER -->
+    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+
+    <!-- Sparkline -->
+    <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Sparkline demo data  -->
+    <script src="js/demo/sparkline-demo.js"></script>
+
+    <!-- ChartJS-->
+    <script src="js/plugins/chartJs/Chart.min.js"></script>
+
+    <!-- Toastr -->
+    <script src="js/plugins/toastr/toastr.min.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            
+
+
+            var data1 = [
+                [0,4],[1,8],[2,5],[3,10],[4,4],[5,16],[6,5],[7,11],[8,6],[9,11],[10,30],[11,10],[12,13],[13,4],[14,3],[15,3],[16,6]
+            ];
+            var data2 = [
+                [0,1],[1,0],[2,2],[3,0],[4,1],[5,3],[6,1],[7,5],[8,2],[9,3],[10,2],[11,1],[12,0],[13,2],[14,8],[15,0],[16,0]
+            ];
+            $("#flot-dashboard-chart").length && $.plot($("#flot-dashboard-chart"), [
+                data1, data2
+            ],
+                    {
+                        series: {
+                            lines: {
+                                show: false,
+                                fill: true
+                            },
+                            splines: {
+                                show: true,
+                                tension: 0.4,
+                                lineWidth: 1,
+                                fill: 0.4
+                            },
+                            points: {
+                                radius: 0,
+                                show: true
+                            },
+                            shadowSize: 2
+                        },
+                        grid: {
+                            hoverable: true,
+                            clickable: true,
+                            tickColor: "#d5d5d5",
+                            borderWidth: 1,
+                            color: '#d5d5d5'
+                        },
+                        colors: ["#1ab394", "#1C84C6"],
+                        xaxis:{
+                        },
+                        yaxis: {
+                            ticks: 4
+                        },
+                        tooltip: false
+                    }
+            );
+
+            var doughnutData = {
+                labels: ["App","Software","Laptop" ],
+                datasets: [{
+                    data: [300,50,100],
+                    backgroundColor: ["#a3e1d4","#dedede","#9CC3DA"]
+                }]
+            } ;
+
+
+            var doughnutOptions = {
+                responsive: false,
+                legend: {
+                    display: false
+                }
+            };
+
+
+            var ctx4 = document.getElementById("doughnutChart").getContext("2d");
+            new Chart(ctx4, {type: 'doughnut', data: doughnutData, options:doughnutOptions});
+
+            var doughnutData = {
+                labels: ["App","Software","Laptop" ],
+                datasets: [{
+                    data: [70,27,85],
+                    backgroundColor: ["#a3e1d4","#dedede","#9CC3DA"]
+                }]
+            } ;
+
+
+            var doughnutOptions = {
+                responsive: false,
+                legend: {
+                    display: false
+                }
+            };
+
+
+            var ctx4 = document.getElementById("doughnutChart2").getContext("2d");
+            new Chart(ctx4, {type: 'doughnut', data: doughnutData, options:doughnutOptions});
+
+        });
+    </script>
+</body>
+</html>

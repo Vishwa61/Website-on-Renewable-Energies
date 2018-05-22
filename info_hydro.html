@@ -1,0 +1,1002 @@
+<!--
+*
+*  INSPINIA - Responsive Admin Theme
+*  version 2.7
+*
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Hydro Energy</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="weather-icons/css/weather-icons.css">
+
+    <!-- Toastr style -->
+    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <!-- Gritter -->
+    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element"> <span>
+ <a href="index.html"><center><img alt="image" class="img-circle" src="img/profile_ret.jpg" style="width: 110px; height: 110px" /></center></a>                             </span>
+                        </div>
+                        <div class="logo-element">
+                            RN+
+                        </div>
+                    </li>
+                   <li>
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Home</span>  </a>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-sun-o"></i> <span class="nav-label">Solar Energy</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="info_solar.html">Information</a></li>
+                            <li><a href="gov_scheme.html">Government Schemes</a></li>
+                            <li><a href="install_plants_solar.html">Installed Plants</a></li>
+                            <li><a href="how_install_solar.html">How to Install</a></li>
+                            <li><a href="info_solar_calculator.html">Calculator</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="wi wi-strong-wind"></i> <span class="nav-label">Wind Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                           <li class="active"><a href="info_wind.html">Information</a></li>
+                            <li><a href="info_wind_subsidies.html">Government Schemes</a></li>
+                            <li><a href="info_wind_installed.html">installed Plants</a></li>
+                            <li><a href="info_wind_howtoinstall.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li  class="active">
+                        <a href="#"><i class="wi wi-raindrop"></i> <span class="nav-label">Hydro Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_hydro.html">Information</a></li>
+                            <li><a href="info_hydro_raw_material.html">Raw Materials</a></li>
+                            <li><a href="info_hydro_gov_policy.html">Government Schemes</a></li>
+                            <li><a href="info_hydro_install.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-thermometer"></i> <span class="nav-label">Geothermal Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_geothermal.html">Information</a></li>
+                            <li><a href="working_geothermal.html">Working of Geothermal Power Plant</a></li>
+                            <li><a href="exploration_geothermal.html">Exploration of Geothermal Plant in India</a></li>
+                            <li><a href="install_geothermal.html">How to Install</a></li>
+                            <li><a href="facts_geothermal.html">Some Interesting Facts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="wi wi-tsunami"></i> <span class="nav-label">Tidal Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_tidal.html">Information</a></li>
+                            <li><a href="working_tidal.html">Conversion of Tidal Energy to Electricity</a></li>
+                            <li><a href="install_plants_tidal.html">Installed Plants</a></li>
+                            <li><a href="install_tidal.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-leaf"></i> <span class="nav-label">Bio Gas</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_biogas.html">Information</a></li>
+                            <li><a href="info_biogas_subsidies.html">Government Schemes</a></li>
+                            <li><a href="info_biogas_installed_plants.html">Installed Plants</a></li>
+                            <li><a href="info_biogas_howtoinstall.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="info_facts.html"><i class="fa fa-magic"></i> <span class="nav-label">Interesting Facts</span></a>
+                    </li>
+					<li>
+                        <a href="renewable_suppliers.html"><i class="fa fa-gears"></i> <span class="nav-label">Equipment Suppliers</span></a>
+                    </li>
+                    <li>
+                        <a href="about_us_ret.html"><i class="fa fa-university"></i> <span class="nav-label">About Us</span></a>
+                    </li>
+                    <li>
+                         <a href="contact_us.html"><i class="fa fa-users"></i> <span class="nav-label">Contact Us</span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+        </div>
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <span class="m-r-sm text-muted welcome-message"><h3>Welcome to RenewablePedia<h3></span>
+                </li>
+            </ul>
+
+        </nav>
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-sm-4">
+                <h2>Hydro Energy</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="index.html">Hydro</a>
+                    </li>
+                    <li class="active">
+                        <strong>Information</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-11" style="margin-left: 50px; margin-top: 25px">
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Introduction</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                       
+                       
+<p>Hydro-power is a renewable energy source currently used in most parts of the world to supplement with electricity needs. Hydropower was first used in 250BC, and it was recorded that waterpower was used to power the clock. Since this time, hydropower has evolved from running a small clock to generating enough power to supply a large city (Energy saving trust, 2003). 
+</p>
+<p>In ancient times, water wheels were used, but only got a new impulse at the beginning of the 19th century with the invention of hydro turbines. Small-scale hydropower was first commonly used style of electricity generation in early 20th century. In 1924 for example, in Switzerland alone, nearly seven thousand small-scale hydropower stations were in use. Then improvements of distribution possibilities by means of high voltage transmission lines caused fainted interest in small-scale hydroelectric power installations. 
+
+</p>
+<p>
+Hydroelectric power generates about 10% of the nation's energy.Hydropower refers to the conversion of energy from flowing water into electricity. The most common type of hydroelectric power plant uses a dam on a river to store water in a reservoir. Water released from the reservoir flows through a turbine, spinning it, which in turn activates a generator to produce electricity. 
+</p>
+                        
+                        
+                    </div>
+                </div>
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>What is Hydro-power?</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        
+                        <h3></h3>
+<p>Hydroelectric power is the most popular "green" energy source for several reasons. First, the cost of the fuel needed to generate hydropower is miniscule because the process doesn't use any of the more common polluting fuels, such as oil, coal, or natural gas. This means that, unlike other power plants, hydroelectric plants don't produce carbon dioxide. A hydroelectric plant is also a lot cheaper to operate because it can be fully automated, saving labor costs, and because its facilities don't need to be repaired frequently. Many hydroelectric plants have been in use for at least 50 years, and they are still running smoothly.
+						</p>
+<p>A "pumped-storage" plant usually consists of a dam combined with a sluice system that allows water to move between a higher-elevation reservoir behind the dam and a lower-elevation outlet in front of the dam. During times of peak energy usage, the water is allowed to flow from the higher elevation to the lower elevation. Along the way it spins a turbine, using the force of gravity to generate electricity. When the demand for electricity falls—during the night, for instance—excess power is used to pump water from the lower elevation back up to the reservoir. The reservoir serves as a sort of massive battery that can be tapped when the demand for electricity increases again.
+
+</p>
+<p>
+Hydro energy is simply energy that is taken from water and converted to electricity. Hydro energy can be obtained by using many methods of capture. The most common method of using energy from water is a hydroelectric dam, where water coming down through an area causes turbines to rotate and the energy is captured to run a generator. Power can also be generated from the energy of tidal forces or wave power, which uses the energy created by waves.
+</p>
+<p>
+Many countries in the world use hydro energy for conversion to electricity. Canada maintains the highest use, while the United States comes in second. One of the main reasons that hydro energy is used is that it is a renewable energy, meaning it will not be depleted over time and it will consistently be replenished. It is also a clean energy source, as it does not emit any toxins.
+</p>
+<p>
+One downside to using hydro energy is that it can sometimes change the natural flow of the water which can make it possible to harm plants and animals in the water. It can also damage areas and wildlife, as when creating a hydro electric dam, areas must be flooded.
+</p>
+<p>
+Other reasons that many want to use hydro energy is that it is cheaper than using other methods to convert energy to electricity. It is also reliable and can be used almost immediately when turned on to meet the demand for electricity. Therefore, one must weigh the pros and cons before deciding to use hydro energy to supply their demand for electricity.
+
+</p>
+
+                    </div>
+                </div>
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>History of Hydro power</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        
+                        <h3></h3>
+<p>Hydro power is one of the oldest sources of energy for producing mechanical and electrical energy. Hydropower was used thousands of years ago to turn paddle wheels to help grind grain. Before steam power and then electricity were available in the United States, grain and lumber mills were powered directly with hydropower. The first industrial use of hydropower to generate electricity in the United States occurred in 1880, when 16 brush-arc lamps were powered using a water turbine at the Wolverine Chair Factory in Grand Rapids, Michigan.
+</p>						
+<p> Hydro power is the largest renewable energy source for electricity generation in the United States. In 2016, hydropower accounted for about 6.5% of total U.S. utility-scale electricity generation and 44% of total utility-scale electricity generation from all renewable energy.
+ 
+</p>
+<center><img alt="image" class="img-rectangle" src="img/ret/h1.jpg"  style="width: 400px; height: 400px " /></center>
+<br></br>
+<p>Because the source of hydroelectric power is water, hydroelectric power plants are usually located on or near a water source.Water released from the reservoir flows through a turbine, spinning it, which in turn activates a generator to produce electricity. But hydroelectric power doesn't necessarily require a large dam. Some hydroelectric power plants just use a small canal to channel the river water through a turbine.
+</p>
+<center><img alt="image" class="img-rectangle" src="img/ret/h2.jpg"  style="width: 400px; height: 400px " /></center>
+
+</div>
+                </div>
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Current use of hydro energy</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        
+					<center><img alt="image" class="img-rectangle" src="img/ret/h3.jpg" style="width: 400px; height: 400px" /></center>
+                   
+                </div>
+				</div>
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Hydro Power Project Classification</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                    <p>Hydro power projects are generally categorized in two segments i.e. small and large hydro. In India, hydro projects up to 25 MW station capacities have been categorized as Small Hydro Power (SHP) projects. While Ministry of Power, Government of India is responsible for large hydro projects, the mandate for the subject small hydro power (up to 25 MW) is given to Ministry of New and Renewable Energy. Small hydro power projects are further classified as
+						<p>Micro Hydro : Up to 100 kW </p>
+						<p>Mini Hydro : 101 to 2000 kW </p>
+						<p>Small Hydro : 2001 to 25000 kW </p>
+					</p>
+ 					<center><img alt="image" class="img-rectangle" src="img/ret/h4.jpg" style="width: 200px; height: 200px" /></center>
+
+                    </div>
+                </div>
+                
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>How Does hydro energy works???</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                      <p> Harnessing Hydroelectric Energy: Dams </p>
+<p>One method for harnessing hydroelectric energy is a dam, or impoundments facility.</p>
+<center><img alt="image" class="img-rectangle" src="img/ret/h5.jpg" style="width: 300px; height: 300px" /></center>
+<p>While water wheels extract some of a stream's power, it was discovered that much more power could be extracted if pressure could be built up. One cannot accumulate pressure in a running stream, but when a dam is built, the water piles up behind the dam so—at the base of the dam—the pressure is increased dramatically. When released, the pressurized water shoots down the penstock and through a system of propellers called a turbine.
+</p>
+<center><img alt="image" class="img-rectangle" src="img/ret/h6.jpg" style="width: 300px; height: 300px" /></center>
+<p> The water that is piled up behind the dam has gravitational potential energy, since it can do work as it falls downward. This work is used by spinning the turbine, which gains kinetic energy. As the generator makes electricity, this kinetic energy is converted to electrical potential energy, which is then transported to homes and businesses for use in light bulbs, refrigerators, and the like.
+</p>
+
+                    </div>
+                </div>
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Environmental Problems of Hydroelectric Facilities</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+<p>Large dams and the reservoirs they create are very useful, but they also create environmental problems.
+</p>
+<center><img alt="image" class="img-rectangle" src="img/ret/h7.jpg" style="width: 300px; height: 100px" /></center>
+<p>  
+Ultimately, dams do not stopthe water, but they do stopvirtually all the sediment from moving downstream. This causes the reservoir to fill up with sediment reducing the volume of the reservoir. This also starves the downstream sections of the river and coastline of the sediment they depend on for maintenance of channels, islands, deltas, and other landscape features.
+</p>
+<p> 
+Dams prevent fish from swimming upstream to their spawning grounds. If fish cannot migrate and spawn, then their population decreases. People have attempted to remedy this problem with different approaches, but most commonly implemented is a fish ladder which creates a stepped system. The fish jump onto each step to safely surpass the dam.
+</p>
+<p>
+Dams create quiet lakes where delicate silica-loving diatoms (micro-organisms which are pictured above) can grow. This takes silica out of the river. When water reaches the ocean, there is little silica left for diatoms in the ocean. Without silica, the diatoms do not bloom and harmful algal blooms take their place.
+</p>
+
+                    </div>
+                </div>
+				
+		
+        <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5> Challenges </h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                       
+                       
+<p> There are challenges to using hydroelectric energy, which include: 
+</p>
+
+<ul>
+<li> Water sources from hydroelectric energy are often far from the grid. </li>
+<li> Dams can impact fish populations because they impede fish from migrating upstream. 
+ </li>
+<li> Dams can harm native plants and animals that live in the area by changing the water’s temperature and the river’s flow, as well as the chemistry of the water downstream (e.g. diatom blooms). 
+</li>
+<li> Droughts can impede hydropower facilities from functioning well. 
+</li>
+<li> When a new dam is constructed, people living in the sited reservoir area need to relocate. 
+</li>
+<li> If a dam fails, the results can be catastrophic.
+</li>
+</ul>       
+<ul>
+            </div>
+			</div>
+			 <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5> Benifits </h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                       
+                       
+<p> Hydroelectric energy offers significant benefits, which include:
+</p>
+
+<ul>
+<li> Hydroelectric energy is clean; it does not pollute the water or air. 
+ </li>
+<li> Hydroelectric energy is a renewable energy source because it relies on water which is continually available since the water cycle is driven by the sun. 
+
+ </li>
+<li> Depending on the design of the hydroelectric facility, electricity can be generated continuously or on demand. 
+
+</li>
+<li> Reservoirs created by dams can create lots of human recreational activities including boating, fishing, and swimming. 
+ 
+</li>
+<li> Hydroelectric plants are a good long term economic investment. Some of today’s plants were built 50 to 100 years ago.
+
+
+</li>
+</ul>       
+<ul>
+            </div>
+			</div>
+			
+			 <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5> Information about Dams </h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                       
+                       
+<p> Dam Designs
+</p>
+<p>
+The impoundments dam is only one way to harness hydroelectric energy from flowing water. Here are two other ways to design hydroelectric facilities.
+</p>
+<p> Run-of-the-river System </p>
+<center><img alt="image" class="img-rectangle" src="img/ret/h8.jpg"  style="width: 200px; height: 200px " /></center>
+<p>Run-of-the-river systems do not require a dam to back up water in a reservoir. Instead, they extract energy from the natural flow of water. A facility may chose to build a dam to help divert water onto an artificial course in order to supply enough moving water to exert adequate force on the turbines. Diverted water joins the natural flow downriver, thus, these systems have reduced environmental impact. If the water flow is more than can be used, gates open to allow passage of excess water
+</p>
+
+<p> Pumped Storage System </p>
+<center><img alt="image" class="img-rectangle" src="img/ret/h9.jpg"  style="width: 200px; height: 200px " /></center>
+<p> In a pumped storage system, a special reservoir is created for water storage so that more electricity can be generated during times of peak demand. Excess generated electricity at times of lower demand is used to pump water back up into the special reservoir. When needed, water from the extra reservoir "recharges" the system. This helps provide power when people need it most. Pictured above, the Kinzua Dam in Pennsylvania is supplemented by the Seneca Pumped Storage Facility on the left-side of the picture.
+</p>
+ <br></br>
+<p> Dam Sizes
+</p> 
+ <p>
+Since large dams satisfy our need for hydroelectricity but can have a severe impact on the environment. Smaller dams—also called micro hydropower plants—are a modern compromise. While these very small facilities do not impact the environment as much, they also do not generate as much electricity as major dams, and need to be deployed locally in backyards, small municipal locations, and other places where the electricity is needed.
+</p>
+<center><img alt="image" class="img-rectangle" src="img/ret/h11.jpg"  style="width: 200px; height: 200px " /></center>
+<p>
+This is Three Gorges Dam in China. It is the world’s largest power station for hydroelectric energy. Large dams yield at least 30 MW. The installed capacity of Three Gorges is 22,500 MW. It supplies electricity to the grid, approximately 3% of China’s total electricity.
+</p>
+<center><img alt="image" class="img-rectangle" src="img/ret/h12.jpg"  style="width: 200px; height: 200px " /></center>
+
+<p> This is a design for a micro hydropower plant. It would have a capacity of about 100 kW. That would be enough electricity for a single home or maybe a small village. This type of hydroelectric facility is very effective in developing nations.
+</p>
+<ul>
+            </div>
+			</div>
+			<div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5> Amount of Electricity Generated </h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                       
+                       
+<p> The amount of electricity that can be generated depends on the river flow as well as the dam height.
+</p>
+<p> The pressure is proportional to the height of the dam (depth of the water), as P=ρgh where ρ is the density of the water, g is the acceleration of gravity at the surface of the Earth, and h is the depth of the water. Because of this, the taller the dam, the greater the force that can be generated to turn a turbine faster and generate electricity. This also explains why the turbines are located at the base of the dam.
+</p>
+<p> The width of the dam does not matter, but is often controlled by the topography of the area that makes wider dams necessary to catch all the water flow.
+</p>
+<p> If more water is allowed to flow through the turbine than the river supplies from upstream, the water level will decrease and the reservoir can eventually run dry.
+</p>
+<center><img alt="image" class="img-rectangle" src="img/ret/h10.jpg"  style="width: 300px; height: 200px " /></center>
+</div>
+        </div>
+
+        </div>
+        
+        <div id="right-sidebar" class="animated">
+            <div class="sidebar-container">
+
+                <ul class="nav nav-tabs navs-3">
+
+                    <li class="active"><a data-toggle="tab" href="#tab-1">
+                        Notes
+                    </a></li>
+                    <li><a data-toggle="tab" href="#tab-2">
+                        Projects
+                    </a></li>
+                    <li class=""><a data-toggle="tab" href="#tab-3">
+                        <i class="fa fa-gear"></i>
+                    </a></li>
+                </ul>
+
+                <div class="tab-content">
+
+
+                    <div id="tab-1" class="tab-pane active">
+
+                        <div class="sidebar-title">
+                            <h3> <i class="fa fa-comments-o"></i> Latest Notes</h3>
+                            <small><i class="fa fa-tim"></i> You have 10 new message.</small>
+                        </div>
+
+                        <div>
+
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a1.jpg">
+
+                                        <div class="m-t-xs">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+
+                                        There are many variations of passages of Lorem Ipsum available.
+                                        <br>
+                                        <small class="text-muted">Today 4:21 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a2.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                        <br>
+                                        <small class="text-muted">Yesterday 2:45 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a3.jpg">
+
+                                        <div class="m-t-xs">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        Mevolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                        <br>
+                                        <small class="text-muted">Yesterday 1:10 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a4.jpg">
+                                    </div>
+
+                                    <div class="media-body">
+                                        Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+                                        <br>
+                                        <small class="text-muted">Monday 8:37 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a8.jpg">
+                                    </div>
+                                    <div class="media-body">
+
+                                        All the Lorem Ipsum generators on the Internet tend to repeat.
+                                        <br>
+                                        <small class="text-muted">Today 4:21 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a7.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                        <br>
+                                        <small class="text-muted">Yesterday 2:45 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a3.jpg">
+
+                                        <div class="m-t-xs">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below.
+                                        <br>
+                                        <small class="text-muted">Yesterday 1:10 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a4.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        Uncover many web sites still in their infancy. Various versions have.
+                                        <br>
+                                        <small class="text-muted">Monday 8:37 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="tab-2" class="tab-pane">
+
+                        <div class="sidebar-title">
+                            <h3> <i class="fa fa-cube"></i> Latest projects</h3>
+                            <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
+                        </div>
+
+                        <ul class="sidebar-list">
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Business valuation</h4>
+                                    It is a long established fact that a reader will be distracted.
+
+                                    <div class="small">Completion with: 22%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 22%;" class="progress-bar progress-bar-warning"></div>
+                                    </div>
+                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Contract with Company </h4>
+                                    Many desktop publishing packages and web page editors.
+
+                                    <div class="small">Completion with: 48%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 48%;" class="progress-bar"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Meeting</h4>
+                                    By the readable content of a page when looking at its layout.
+
+                                    <div class="small">Completion with: 14%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 14%;" class="progress-bar progress-bar-info"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="label label-primary pull-right">NEW</span>
+                                    <h4>The generated</h4>
+                                    There are many variations of passages of Lorem Ipsum available.
+                                    <div class="small">Completion with: 22%</div>
+                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Business valuation</h4>
+                                    It is a long established fact that a reader will be distracted.
+
+                                    <div class="small">Completion with: 22%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 22%;" class="progress-bar progress-bar-warning"></div>
+                                    </div>
+                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Contract with Company </h4>
+                                    Many desktop publishing packages and web page editors.
+
+                                    <div class="small">Completion with: 48%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 48%;" class="progress-bar"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Meeting</h4>
+                                    By the readable content of a page when looking at its layout.
+
+                                    <div class="small">Completion with: 14%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 14%;" class="progress-bar progress-bar-info"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="label label-primary pull-right">NEW</span>
+                                    <h4>The generated</h4>
+                                    <!--<div class="small pull-right m-t-xs">9 hours ago</div>-->
+                                    There are many variations of passages of Lorem Ipsum available.
+                                    <div class="small">Completion with: 22%</div>
+                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div id="tab-3" class="tab-pane">
+
+                        <div class="sidebar-title">
+                            <h3><i class="fa fa-gears"></i> Settings</h3>
+                            <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
+                        </div>
+
+                        <div class="setings-item">
+                    <span>
+                        Show notifications
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example">
+                                    <label class="onoffswitch-label" for="example">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Disable Chat
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" checked class="onoffswitch-checkbox" id="example2">
+                                    <label class="onoffswitch-label" for="example2">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Enable history
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example3">
+                                    <label class="onoffswitch-label" for="example3">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Show charts
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example4">
+                                    <label class="onoffswitch-label" for="example4">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Offline users
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" checked name="collapsemenu" class="onoffswitch-checkbox" id="example5">
+                                    <label class="onoffswitch-label" for="example5">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Global search
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" checked name="collapsemenu" class="onoffswitch-checkbox" id="example6">
+                                    <label class="onoffswitch-label" for="example6">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Update everyday
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example7">
+                                    <label class="onoffswitch-label" for="example7">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-content">
+                            <h4>Settings</h4>
+                            <div class="small">
+                                I belive that. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                And typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                Over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Flot -->
+    <script src="js/plugins/flot/jquery.flot.js"></script>
+    <script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="js/plugins/flot/jquery.flot.spline.js"></script>
+    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="js/plugins/flot/jquery.flot.pie.js"></script>
+
+    <!-- Peity -->
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="js/demo/peity-demo.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- GITTER -->
+    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+
+    <!-- Sparkline -->
+    <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Sparkline demo data  -->
+    <script src="js/demo/sparkline-demo.js"></script>
+
+    <!-- ChartJS-->
+    <script src="js/plugins/chartJs/Chart.min.js"></script>
+
+    <!-- Toastr -->
+    <script src="js/plugins/toastr/toastr.min.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            
+
+
+            var data1 = [
+                [0,4],[1,8],[2,5],[3,10],[4,4],[5,16],[6,5],[7,11],[8,6],[9,11],[10,30],[11,10],[12,13],[13,4],[14,3],[15,3],[16,6]
+            ];
+            var data2 = [
+                [0,1],[1,0],[2,2],[3,0],[4,1],[5,3],[6,1],[7,5],[8,2],[9,3],[10,2],[11,1],[12,0],[13,2],[14,8],[15,0],[16,0]
+            ];
+            $("#flot-dashboard-chart").length && $.plot($("#flot-dashboard-chart"), [
+                data1, data2
+            ],
+                    {
+                        series: {
+                            lines: {
+                                show: false,
+                                fill: true
+                            },
+                            splines: {
+                                show: true,
+                                tension: 0.4,
+                                lineWidth: 1,
+                                fill: 0.4
+                            },
+                            points: {
+                                radius: 0,
+                                show: true
+                            },
+                            shadowSize: 2
+                        },
+                        grid: {
+                            hoverable: true,
+                            clickable: true,
+                            tickColor: "#d5d5d5",
+                            borderWidth: 1,
+                            color: '#d5d5d5'
+                        },
+                        colors: ["#1ab394", "#1C84C6"],
+                        xaxis:{
+                        },
+                        yaxis: {
+                            ticks: 4
+                        },
+                        tooltip: false
+                    }
+            );
+
+            var doughnutData = {
+                labels: ["App","Software","Laptop" ],
+                datasets: [{
+                    data: [300,50,100],
+                    backgroundColor: ["#a3e1d4","#dedede","#9CC3DA"]
+                }]
+            } ;
+
+
+            var doughnutOptions = {
+                responsive: false,
+                legend: {
+                    display: false
+                }
+            };
+
+
+            var ctx4 = document.getElementById("doughnutChart").getContext("2d");
+            new Chart(ctx4, {type: 'doughnut', data: doughnutData, options:doughnutOptions});
+
+            var doughnutData = {
+                labels: ["App","Software","Laptop" ],
+                datasets: [{
+                    data: [70,27,85],
+                    backgroundColor: ["#a3e1d4","#dedede","#9CC3DA"]
+                }]
+            } ;
+
+
+            var doughnutOptions = {
+                responsive: false,
+                legend: {
+                    display: false
+                }
+            };
+
+
+            var ctx4 = document.getElementById("doughnutChart2").getContext("2d");
+            new Chart(ctx4, {type: 'doughnut', data: doughnutData, options:doughnutOptions});
+
+        });
+    </script>
+</body>
+</html>

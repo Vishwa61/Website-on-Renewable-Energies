@@ -1,0 +1,870 @@
+<!--
+*
+*  INSPINIA - Responsive Admin Theme
+*  version 2.7
+*
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Geothermal Energy</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="weather-icons/css/weather-icons.css">
+
+    <!-- Toastr style -->
+    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <!-- Gritter -->
+    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element"> <span>
+ <a href="index.html"><center><img alt="image" class="img-circle" src="img/profile_ret.jpg" style="width: 110px; height: 110px" /></center></a>                             </span>
+                        </div>
+                        <div class="logo-element">
+                            RN+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Home</span>  </a>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-sun-o"></i> <span class="nav-label">Solar Energy</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="info_solar.html">Information</a></li>
+                            <li><a href="gov_scheme.html">Government Schemes</a></li>
+                            <li><a href="install_plants_solar.html">Installed Plants</a></li>
+                            <li><a href="how_install_solar.html">How to Install</a></li>
+                            <li><a href="info_solar_calculator.html">Calculator</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="wi wi-strong-wind"></i> <span class="nav-label">Wind Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                           <li class="active"><a href="info_wind.html">Information</a></li>
+                            <li><a href="info_wind_subsidies.html">Government Schemes</a></li>
+                            <li><a href="info_wind_installed.html">installed Plants</a></li>
+                            <li><a href="info_wind_howtoinstall.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="wi wi-raindrop"></i> <span class="nav-label">Hydro Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_hydro.html">Information</a></li>
+                            <li><a href="info_hydro_raw_material.html">Raw Materials</a></li>
+                            <li><a href="info_hydro_gov_policy.html">Government Schemes</a></li>
+                            <li><a href="info_hydro_install.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    <li class="active">
+                        <a href="#"><i class="fa fa-thermometer"></i> <span class="nav-label">Geothermal Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_geothermal.html">Information</a></li>
+                            <li><a href="working_geothermal.html">Working of Geothermal Power Plant</a></li>
+                            <li><a href="exploration_geothermal.html">Exploration of Geothermal Plant in India</a></li>
+                            <li><a href="install_geothermal.html">How to Install</a></li>
+                            <li><a href="facts_geothermal.html">Some Interesting Facts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="wi wi-tsunami"></i> <span class="nav-label">Tidal Energy</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_tidal.html">Information</a></li>
+                            <li><a href="working_tidal.html">Conversion of Tidal Energy to Electricity</a></li>
+                            <li><a href="install_plants_tidal.html">Installed Plants</a></li>
+                            <li><a href="install_tidal.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-leaf"></i> <span class="nav-label">Bio Gas</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="active"><a href="info_biogas.html">Information</a></li>
+                            <li><a href="info_biogas_subsidies.html">Government Schemes</a></li>
+                            <li><a href="info_biogas_installed_plants.html">Installed Plants</a></li>
+                            <li><a href="info_biogas_howtoinstall.html">How to Install</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="info_facts.html"><i class="fa fa-magic"></i> <span class="nav-label">Interesting Facts</span></a>
+                    </li>
+					<li>
+                        <a href="renewable_suppliers.html"><i class="fa fa-gears"></i> <span class="nav-label">Equipment Suppliers</span></a>
+                    </li>
+                    <li>
+                        <a href="about_us_ret.html"><i class="fa fa-university"></i> <span class="nav-label">About Us</span></a>
+                    </li>
+                    <li>
+                         <a href="contact_us.html"><i class="fa fa-users"></i> <span class="nav-label">Contact Us</span></a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+        </div>
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <span class="m-r-sm text-muted welcome-message"><h3>Welcome to RenewablePedia<h3></span>
+                </li>
+            </ul>
+
+        </nav>
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-sm-4">
+                <h2>Geothermal Energy</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="index.html">Geothermal Energy</a>
+                    </li>
+                    <li class="active">
+                        <strong>Information</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-11" style="margin-left: 50px; margin-top: 25px">
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Introduction</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                            <p>Geothermal energy is thermal energy (that determines the temperature of matter) generated and stored in the Earth. The adjective geothermal originates from 
+							the Greek roots γη (ge), meaning earth, and θερμος (thermos), meaning hot. Geothermal energy is a renewable energy source because heat is continuously 
+							produced inside the earth. The geothermal energy of the Earth's crust originates from the original formation of the planet and from radioactive decay of 
+							materials. The geothermal gradient (difference in temperature between the core of the planet and its surface), drives a continuous conduction of thermal 
+							energy in the form of heat from the core to the surface.</p>
+					
+							<br></br>
+					
+							<h3>Introduction to Geothermal Energy</h3>
+							<center><iframe width="560" height="315" src="https://www.youtube.com/embed/mCRDf7QxjDk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+					</div>
+                </div>
+				
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>History</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <p>Hot springs have been used for bathing at least since Paleolithic times. The oldest known spa is a stone pool on China's Lisan mountain built in the <a href="https://en.wikipedia.org/wiki/Qin_dynasty" title="Qin Dynasty">Qin Dynasty</a> 
+						in the 3rd century BC, at the same site where the Huaqing Chi palace was later built. In the first century AD, Romans conquered <a href="https://en.wikipedia.org/wiki/Aquae_Sulis" title="Aquae Sulis">Aquae Sulis</a>, now <a href="https://en.wikipedia.org/wiki/Bath,_Somerset" title="Bath, Somerset">Bath, 
+						Somerset,</a> England, and used the hot springs there to feed public baths and underfloor heating. The admission fees for these baths probably represent the first 
+						commercial use of geothermal power.</p>
+						
+						<center><img alt="image" class="img-rectangle" src="img/ret/Oldest_geothermal.jpg" style="width: 280px; height: 220px" /></center>
+						<center><h5>The oldest known pool fed by a hot spring, built in the Qin dynasty in the 3rd century BC</h></center>
+						
+						<p>In the 20th century, demand for electricity led to the consideration of geothermal power as a generating source. Prince <a href="https://en.wikipedia.org/wiki/Piero_Ginori_Conti" title="Piero Ginori Conti">Piero Ginori Conti</a> tested the first 
+						geothermal power generator on 4 July 1904, at the same Larderello dry steam field where geothermal acid extraction began. It successfully lit four light bulbs. 
+						Later, in 1911, the world's first commercial geothermal power plant was built there. It was the world's only industrial producer of geothermal electricity until 
+						New Zealand built a plant in 1958. In 2012, it produced some 594 megawatts.</p>
+					</div>
+                </div>
+				
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Suitable Places for Geothermal Energy</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <p>Geothermal energy comes from deep inside the earth. The earth's crust is broken into pieces called tectonic plates. Magma comes close to the earth's surface 
+						near the edges of these plates, which is where many volcanoes occur. The lava that erupts from volcanoes is partly magma. Rocks and water absorb heat from 
+						magma deep underground. The rocks and water found deeper underground have the highest temperatures.</p>		
+						
+						<center><img alt="image" class="img-rectangle" src="img/ret/earth.png" style="width: 240px; height: 220px" /></center>
+						<center><h5>The Earth's Interior</h></center>
+						
+						<p>It is suitable for particular region which are normally prone to earthquakes and volcanoes. The concentration of geothermal energy at any given location must 
+						be quite high in order to make heat extraction feasible, and not all geothermal sites are created equally. Regions that have well-developed geothermal systems 
+						are located in geologically active areas. These regions have continuous, concentrated heat flow to the surface. The western United States has the best 
+						geothermal regions in the country, while Iceland , New Zealand , the Philippines , and South America , are some of the more prominent global "hot spots." In 
+						Iceland , geothermal energy, caused by the constant movement of geologic plates coupled with the volcanic nature of the island, is used to heat 95% of all 
+						homes.</p>
+                    </div>
+                </div>
+				
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Advantages</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+						<ul>
+							<li><b>Environmentally friendly: </b>There are a few polluting aspects to harnessing geothermal energy, and the carbon footprint of a geothermal power plant is 
+							seen as minimal. An average geothermal power plant releases the equivalent of 122 kg CO2 for every megawatt-hour (MWh) of electricity it generates – 
+							one-eighth of the CO2 emissions associated with typical coal power plants.</li>
+							<li><b>A renewable resource: </b>Geothermal reservoirs are naturally replenished. According to some scientists, the energy in our geothermal reservoirs will last 
+							billions of years. While fossil fuels have an expiry date, renewable sources like geothermal energy is not going to expire anytime soon.</li>
+							<li><b>Potential capacity: </b>Estimates for the potential of geothermal power plants vary between 0.035 to 2 TW. </li>
+							<li><b>A stable resource: </b>The power output of a geothermal plant can be accurately predicted. Not subject to the same low-energy fluctuations as with solar or 
+							wind. </li>
+							<li><b>Great for Heating/Cooling: </b>There is significant growth in the number of homeowners utilizing geothermal heating/cooling over the last couple of years.</li>
+							<li><b>No fuel required: </b>After installation, no mining or transportation activity is necessary.</li>
+							<li><b>Small land footprint: </b>Smallest land footprint of any major power source.</li>
+							<li><b>Economic factors: </b>Cost-competitive in some areas.</li>
+							<li><b>Accessibility: </b>Some level of geothermal energy available most places.</li>
+							<li><b>Renewable: </b>Geothermal energy is extracted from earth’s core and will be available as long as earth exists. It is therefore renewable and can be used for 
+							roughly another 4-5 billion years.</li>
+							<li><b>Abundant Supply: </b>With geothermal energy, there are no shortages or other sorts of problems which sometimes occur with other types of power.</li>
+						</ul>
+                    </div>
+                </div>
+				
+               <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Disadvantages</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+						<ul>
+							<li><b>Potential emissions: </b>Greenhouse gas below Earth’s surface can potentially migrate to the surface and into the atmosphere. Such emissions tend to be 
+							higher near geothermal power plants, which are associated with sulfur dioxide and silica emissions. Also, and the reservoirs can contain traces of toxic 
+							heavy metals including mercury, arsenic and boron.</li>
+							<li><b>Surface Instability: </b>Construction of geothermal power 
+							plants can affect the stability of land. In January 1997, the construction of a geothermal power plant in Switzerland triggered an earthquake with a magnitude of 3.4 on the Richter scale.x`</li>
+							<li><b>High cost for electricity: </b>Total costs usually end up somewhere between $2 – 7 million for a 1 MW geothermal power plant. </li>
+							<li><b>High up-front costs for heating and cooling systems: </b>TWhile there is a predictable ROI, it will not happen quickly.For an average sized home, 
+							installation of geothermal heat pumps costs between $10,000 – $20,000 which can pay off itself in another 5-10 years down the line. </li>
+							<li><b>Location Specific: </b>Good geothermal reservoirs are hard to come by. Iceland and Philippines meet nearly one-third of their electricity demand with 
+							geothermal energy. Prime sites are often far from population centers.</li>
+							<li><b>Distribution costs: </b>If geothermal energy is transported long distances, cost can become prohibitive.</li>
+							<li><b>Sustainability questions: </b>Some studies show that reservoirs can be depleted if the fluid is removed faster than replaced. This is not an issue for 
+							residential geothermal heating and cooling, where geothermal energy is being used differently than in geothermal power plants.</li>
+							<li><b>Cost of Powering the Pump: </b>Geothermal heat pumps need a power source.</li>
+							<li><b>May Run Out of Steam: </b>You have to be incredibly careful when you are trying to check everything that is related to geothermal energy. Mind must be 
+							taken to watch the heat and not to abuse it, because if the heat is not taken care of properly, it can cause a meltdown or other issues where the energy is 
+							not properly distributed or used.</li>
+						</ul>
+                    </div>
+                </div>
+				
+                <div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Cost Associated with Geothermal Power Plant</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+					<p>Geothermal power requires no fuel (except for pumps), and is therefore immune to fuel cost fluctuations. However, capital costs are significant. Drilling 
+					accounts for over half the costs, and exploration of deep resources entails significant risks. A typical well doublet (extraction and injection wells) in Nevada can 
+					support 4.5 megawatts and costs about $10 million to drill, with a 20% failure rate.In total, electrical plant construction and well drilling cost about €2–5 million 
+					per MW of electrical capacity, while the break–even price is 0.04–0.10 € per kW·h. Enhanced geothermal systems tend to be on the high side of these ranges, 
+					with capital costs above $4 million per MW and break–even above $0.054 per kW·h in 2007. Direct heating applications can use much shallower wells with 
+					lower temperatures, so smaller systems with lower costs and risks are feasible. Residential geothermal heat pumps with a capacity of 10 kilowatt (kW) are 
+					routinely installed for around $1–3,000 per kilowatt.</p>
+                    </div>
+                </div>
+                
+				<div class="ibox float-e-margins ">
+                    <div class="ibox-title dropdown-toggle dropdown-toggle" data-toggle="dropdown">
+                        <h5>Closure</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+					<p>The Earth's geothermal resources are theoretically more than adequate to supply humanity's energy needs, but only a very small fraction may be profitably 
+					exploited. Drilling and exploration for deep resources is very expensive. Forecasts for the future of geothermal power depend on assumptions about 
+					technology, energy prices, subsidies, plate boundary movement and interest rates. Pilot programs like EWEB's customer opt in Green Power Program show 
+					that customers would be willing to pay a little more for a renewable energy source like geothermal. But as a result of government assisted research and 
+					industry experience, the cost of generating geothermal power has decreased by 25% over the past two decades.</p>
+					
+					<p>Despite the fact that geothermal energy is abundant renewable, and able to reduce our dependence on imported fuels, the fact remains that fields of sufficient 
+					quality to produce economic electricity are rare. In addition, many of those that are known are located in protected wilderness areas that environmentalists 
+					want to preserve. Unless research and technology join forces to "harvest" geothermal power through non-traditional means, such as deep-crustal drilling or the 
+					acquisition of heat from magma, the tapping of geothermal energy is limited to a handful of locations.</p>
+                    </div>
+                </div>
+        </div>
+                <div id="right-sidebar" class="animated">
+            <div class="sidebar-container">
+
+                <ul class="nav nav-tabs navs-3">
+
+                    <li class="active"><a data-toggle="tab" href="#tab-1">
+                        Notes
+                    </a></li>
+                    <li><a data-toggle="tab" href="#tab-2">
+                        Projects
+                    </a></li>
+                    <li class=""><a data-toggle="tab" href="#tab-3">
+                        <i class="fa fa-gear"></i>
+                    </a></li>
+                </ul>
+
+                <div class="tab-content">
+
+
+                    <div id="tab-1" class="tab-pane active">
+
+                        <div class="sidebar-title">
+                            <h3> <i class="fa fa-comments-o"></i> Latest Notes</h3>
+                            <small><i class="fa fa-tim"></i> You have 10 new message.</small>
+                        </div>
+
+                        <div>
+
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a1.jpg">
+
+                                        <div class="m-t-xs">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+
+                                        There are many variations of passages of Lorem Ipsum available.
+                                        <br>
+                                        <small class="text-muted">Today 4:21 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a2.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                        <br>
+                                        <small class="text-muted">Yesterday 2:45 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a3.jpg">
+
+                                        <div class="m-t-xs">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        Mevolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                        <br>
+                                        <small class="text-muted">Yesterday 1:10 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a4.jpg">
+                                    </div>
+
+                                    <div class="media-body">
+                                        Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+                                        <br>
+                                        <small class="text-muted">Monday 8:37 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a8.jpg">
+                                    </div>
+                                    <div class="media-body">
+
+                                        All the Lorem Ipsum generators on the Internet tend to repeat.
+                                        <br>
+                                        <small class="text-muted">Today 4:21 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a7.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                        <br>
+                                        <small class="text-muted">Yesterday 2:45 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a3.jpg">
+
+                                        <div class="m-t-xs">
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below.
+                                        <br>
+                                        <small class="text-muted">Yesterday 1:10 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sidebar-message">
+                                <a href="#">
+                                    <div class="pull-left text-center">
+                                        <img alt="image" class="img-circle message-avatar" src="img/a4.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        Uncover many web sites still in their infancy. Various versions have.
+                                        <br>
+                                        <small class="text-muted">Monday 8:37 pm</small>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="tab-2" class="tab-pane">
+
+                        <div class="sidebar-title">
+                            <h3> <i class="fa fa-cube"></i> Latest projects</h3>
+                            <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
+                        </div>
+
+                        <ul class="sidebar-list">
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Business valuation</h4>
+                                    It is a long established fact that a reader will be distracted.
+
+                                    <div class="small">Completion with: 22%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 22%;" class="progress-bar progress-bar-warning"></div>
+                                    </div>
+                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Contract with Company </h4>
+                                    Many desktop publishing packages and web page editors.
+
+                                    <div class="small">Completion with: 48%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 48%;" class="progress-bar"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Meeting</h4>
+                                    By the readable content of a page when looking at its layout.
+
+                                    <div class="small">Completion with: 14%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 14%;" class="progress-bar progress-bar-info"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="label label-primary pull-right">NEW</span>
+                                    <h4>The generated</h4>
+                                    There are many variations of passages of Lorem Ipsum available.
+                                    <div class="small">Completion with: 22%</div>
+                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Business valuation</h4>
+                                    It is a long established fact that a reader will be distracted.
+
+                                    <div class="small">Completion with: 22%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 22%;" class="progress-bar progress-bar-warning"></div>
+                                    </div>
+                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Contract with Company </h4>
+                                    Many desktop publishing packages and web page editors.
+
+                                    <div class="small">Completion with: 48%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 48%;" class="progress-bar"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>
+                                    <h4>Meeting</h4>
+                                    By the readable content of a page when looking at its layout.
+
+                                    <div class="small">Completion with: 14%</div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 14%;" class="progress-bar progress-bar-info"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="label label-primary pull-right">NEW</span>
+                                    <h4>The generated</h4>
+                                    <!--<div class="small pull-right m-t-xs">9 hours ago</div>-->
+                                    There are many variations of passages of Lorem Ipsum available.
+                                    <div class="small">Completion with: 22%</div>
+                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div id="tab-3" class="tab-pane">
+
+                        <div class="sidebar-title">
+                            <h3><i class="fa fa-gears"></i> Settings</h3>
+                            <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
+                        </div>
+
+                        <div class="setings-item">
+                    <span>
+                        Show notifications
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example">
+                                    <label class="onoffswitch-label" for="example">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Disable Chat
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" checked class="onoffswitch-checkbox" id="example2">
+                                    <label class="onoffswitch-label" for="example2">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Enable history
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example3">
+                                    <label class="onoffswitch-label" for="example3">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Show charts
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example4">
+                                    <label class="onoffswitch-label" for="example4">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Offline users
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" checked name="collapsemenu" class="onoffswitch-checkbox" id="example5">
+                                    <label class="onoffswitch-label" for="example5">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Global search
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" checked name="collapsemenu" class="onoffswitch-checkbox" id="example6">
+                                    <label class="onoffswitch-label" for="example6">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setings-item">
+                    <span>
+                        Update everyday
+                    </span>
+                            <div class="switch">
+                                <div class="onoffswitch">
+                                    <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example7">
+                                    <label class="onoffswitch-label" for="example7">
+                                        <span class="onoffswitch-inner"></span>
+                                        <span class="onoffswitch-switch"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-content">
+                            <h4>Settings</h4>
+                            <div class="small">
+                                I belive that. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                And typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                Over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Flot -->
+    <script src="js/plugins/flot/jquery.flot.js"></script>
+    <script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="js/plugins/flot/jquery.flot.spline.js"></script>
+    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="js/plugins/flot/jquery.flot.pie.js"></script>
+
+    <!-- Peity -->
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="js/demo/peity-demo.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- GITTER -->
+    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+
+    <!-- Sparkline -->
+    <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Sparkline demo data  -->
+    <script src="js/demo/sparkline-demo.js"></script>
+
+    <!-- ChartJS-->
+    <script src="js/plugins/chartJs/Chart.min.js"></script>
+
+    <!-- Toastr -->
+    <script src="js/plugins/toastr/toastr.min.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            
+
+
+            var data1 = [
+                [0,4],[1,8],[2,5],[3,10],[4,4],[5,16],[6,5],[7,11],[8,6],[9,11],[10,30],[11,10],[12,13],[13,4],[14,3],[15,3],[16,6]
+            ];
+            var data2 = [
+                [0,1],[1,0],[2,2],[3,0],[4,1],[5,3],[6,1],[7,5],[8,2],[9,3],[10,2],[11,1],[12,0],[13,2],[14,8],[15,0],[16,0]
+            ];
+            $("#flot-dashboard-chart").length && $.plot($("#flot-dashboard-chart"), [
+                data1, data2
+            ],
+                    {
+                        series: {
+                            lines: {
+                                show: false,
+                                fill: true
+                            },
+                            splines: {
+                                show: true,
+                                tension: 0.4,
+                                lineWidth: 1,
+                                fill: 0.4
+                            },
+                            points: {
+                                radius: 0,
+                                show: true
+                            },
+                            shadowSize: 2
+                        },
+                        grid: {
+                            hoverable: true,
+                            clickable: true,
+                            tickColor: "#d5d5d5",
+                            borderWidth: 1,
+                            color: '#d5d5d5'
+                        },
+                        colors: ["#1ab394", "#1C84C6"],
+                        xaxis:{
+                        },
+                        yaxis: {
+                            ticks: 4
+                        },
+                        tooltip: false
+                    }
+            );
+
+            var doughnutData = {
+                labels: ["App","Software","Laptop" ],
+                datasets: [{
+                    data: [300,50,100],
+                    backgroundColor: ["#a3e1d4","#dedede","#9CC3DA"]
+                }]
+            } ;
+
+
+            var doughnutOptions = {
+                responsive: false,
+                legend: {
+                    display: false
+                }
+            };
+
+
+            var ctx4 = document.getElementById("doughnutChart").getContext("2d");
+            new Chart(ctx4, {type: 'doughnut', data: doughnutData, options:doughnutOptions});
+
+            var doughnutData = {
+                labels: ["App","Software","Laptop" ],
+                datasets: [{
+                    data: [70,27,85],
+                    backgroundColor: ["#a3e1d4","#dedede","#9CC3DA"]
+                }]
+            } ;
+
+
+            var doughnutOptions = {
+                responsive: false,
+                legend: {
+                    display: false
+                }
+            };
+
+
+            var ctx4 = document.getElementById("doughnutChart2").getContext("2d");
+            new Chart(ctx4, {type: 'doughnut', data: doughnutData, options:doughnutOptions});
+
+        });
+    </script>
+</body>
+</html>
